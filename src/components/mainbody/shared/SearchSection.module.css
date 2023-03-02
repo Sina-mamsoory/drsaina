@@ -1,0 +1,12 @@
+.container {
+    width: 100%; height: 387.891px;
+    margin-top: 74px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background: linear-gradient(121.9deg,#07a68d 0,#08b89d 100%);
+    box-shadow: 0 10px 16px #03213314;
+    border-radius: 0 0 42px 42px;
+}
+
