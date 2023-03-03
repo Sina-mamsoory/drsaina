@@ -1,10 +1,6 @@
-@font-face {
-    font-family: IRANSans;
-    src: url('./../../asset/font/IRANSans\ 400.ttf') format('ttf');
-}
+
 
 .container {
-    font-family: IRANSans;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -24,6 +20,8 @@
 
 .container .list li {
     cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .container .list li:hover {
@@ -31,11 +29,11 @@
 }
 .container .list li:not(:last-child) {
     margin-left: 40px;
-    font-size: 17px;
+    
 }
 
 .container .list .link {
-    font-weight: bold;
+
     color: #08b89d;
     display: flex;
     align-items: center;
@@ -47,12 +45,19 @@
 .container .lastPartForm .form {
     border-radius: 8px;
     border: 1px solid #e5e9f0;
-    padding: 7px 20px;
-    font-size: 13px;
+    padding: 7px 12px 12px;
+    font-size: 12px;
     font-weight: 300;
     text-align: center;
     color: #032133;
     position: relative;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+.container .lastPartForm .form:hover {
+   background-color: #fafafa;
 }
 
 

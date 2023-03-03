@@ -1,12 +1,12 @@
 import { Container } from "@mui/material";
 import React from "react";
-import SearchSection from "./shared/SearchSection";
+import Search from "./shared/Search";
 
 const MainBody = () => {
     return(
         <Container maxWidth='lg'>
             <div>
-                <SearchSection />
+                <Search />
             </div>
         </Container>
        

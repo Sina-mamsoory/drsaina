@@ -1,4 +1,11 @@
+@font-face {
+  font-family: 'IRANSans';
+  src: url('./asset/font/IRANSans\(FaNum\).ttf') format('truetype');
+}
 
+body {
+  font-family: 'IRANSans';
+}
 
 .App {
   text-align: center;
