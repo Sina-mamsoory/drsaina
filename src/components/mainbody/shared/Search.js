@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from './Search.module.css';
 
 const Search = () => {
@@ -14,7 +15,9 @@ const Search = () => {
                         <span>صوتی </span>
                         <span>تلفنی </span>
                     </span>
+                    <span className={styles.lastChild}>گفتگو کنید</span>
                 </p>
+                <p><Link>چطور مشاوره آنلاین بگیرم؟</Link></p>
             </div>
         </div>
     )
