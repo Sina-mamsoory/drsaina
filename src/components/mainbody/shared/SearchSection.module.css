@@ -17,6 +17,12 @@
     line-height: 1.69;
     text-align: center;
     color: #fff;
+    position: relative;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-46.5%);
+    margin-bottom: 30px;
+
 }
 
 .container .sectionInfo p {
@@ -53,13 +59,68 @@
 .container .sectionInfo p:last-child a {
     font-size: 18px;
     color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50px);
 }
 
 .container .sectionInfo p:last-child a:hover {
     text-decoration: none;
 }
 
+.container .searchInput input {
+    border: none; outline: none;
+    background: #ffffff;
+    border-radius: 0 8px 8px 0;
+    padding: 15px;
+    width: 600px; height: 60px;
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.container .searchInput button {
+    border: none; outline: none;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 8px 0 0 8px;
+    position: relative;
+    left: 30px; top: 10px;
+}
+
+.container .searchInput button div {
+    color: #ffffff;
+    background-color: #ed1846;
+    width: 48px; height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .lastConsultation {
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-43%);
+    margin: 40px 0;
+}
+
+.container .lastConsultation span:first-child {
+    background-color: rgba(29,145,145,.41);
+    padding: 6px 10px;
+    margin: 0 0 8px 8px;
+    height: 40px;
+    border: 1px dashed #fff;
+    border-radius: 0 50px 50px 0;
+}
+
+.container .lastConsultation span:last-child {
+    font-weight: bold;
+    font-size: 14px;
+}
 
 @keyframes contactType1 {
 
