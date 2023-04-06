@@ -4,6 +4,8 @@ import SearchSection from "./shared/SearchSection";
 import WhyDrSaina from "./shared/WhyDrSaina";
 
 import styles from './MainBody.module.css';
+import ConsultantList from "./shared/ConsultantList";
+import FAQ from "./shared/FAQ";
 
 const MainBody = () => {
     return(
@@ -11,6 +13,8 @@ const MainBody = () => {
             <div className={styles.container}>
                 <SearchSection />
                 <WhyDrSaina />
+                <ConsultantList />
+                <FAQ />
             </div>
         </Container>
        

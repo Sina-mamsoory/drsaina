@@ -1,0 +1,12 @@
+.container {
+    position: relative;
+    width: 100vw;
+    top: 800px;
+}
+
+.container .header {
+    padding: 0 145px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

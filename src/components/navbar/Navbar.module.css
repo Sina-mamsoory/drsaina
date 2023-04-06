@@ -10,6 +10,7 @@
     top: 0; right: 0;
     line-height: 1.8em;
     margin-top: 5px;
+    z-index: 110;
 }
 
 .container .list {
@@ -32,6 +33,11 @@
     
 }
 
+.container .list .linkContainer {
+    display: flex;
+    align-items: center;
+}
+
 .container .list .link {
 
     color: #08b89d;
@@ -40,6 +46,7 @@
     text-decoration: none;
     cursor: pointer;
     height: 62px;
+    width: 100%;
 }
 
 .container .lastPartForm .form {

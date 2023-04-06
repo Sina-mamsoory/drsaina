@@ -9,10 +9,29 @@
     width: 100vw; 
 }
 
-.container .why {
+.container .gridContainer {
     padding: 0 140px;
 }
 
+
 .container .why h5 {
     font-family: 'IRANSans' ;
+}
+
+.container .cause {
+    display: flex;
+    align-items: center;
+    /* margin-right: 10px; */
+}
+
+.container .cause div:last-child {
+    text-align: right;
+}
+
+.container .cause div:last-child div:last-child {
+    margin-top: 2px;
+    width: calc(100% - 10px);
+    font-size: 12px;
+    color: #4f6470;
+
 }
