@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'IRANSans';
-    src: url('./../../../asset/font/IRANSans\(FaNum\).ttf') format('truetype');
+    src: url('./../../asset/font/IRANSans\(FaNum\).ttf') format('truetype');
 }
 
 .container {

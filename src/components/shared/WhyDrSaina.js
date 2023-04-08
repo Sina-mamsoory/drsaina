@@ -3,7 +3,7 @@ import { Grid, Typography, ThemeProvider } from "@mui/material";
 
 
 import styles from './WhyDrSaina.module.css';
-import {theme} from './breakpoints';
+import {theme} from '../mainbody/shared/breakpoints';
 
 
 

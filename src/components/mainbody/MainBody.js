@@ -1,7 +1,7 @@
 import { Container } from "@mui/material";
 import React from "react";
 import SearchSection from "./shared/SearchSection";
-import WhyDrSaina from "./shared/WhyDrSaina";
+import WhyDrSaina from "./../shared/WhyDrSaina";
 
 import styles from './MainBody.module.css';
 import ConsultantList from "./shared/ConsultantList";
