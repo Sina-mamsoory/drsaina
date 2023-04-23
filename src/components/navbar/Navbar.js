@@ -1,7 +1,8 @@
 import { Container } from "@mui/material";
-import React, {useState } from "react";
+import React, {useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Categories from "./shared/Categories";
+import {getMainCategorys} from "../../services/api";
 
 import styles from './Navbar.module.css';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -10,7 +11,6 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 const Navbar = () => {
     const [status , setStatus]= useState(false)
 
-    console.log( status )
 
     return (
         <Container maxWidth='lg'>

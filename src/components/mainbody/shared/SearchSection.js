@@ -15,7 +15,7 @@ const SearchSection = () => {
                 <div className={styles.container}>
                 <div className={styles.sectionInfo}>
                     <h1>مشاوره آنلاین پزشکی</h1>
-                    <p>
+                    <p className={styles.contact}>
                         <span>با بیش از 2500 پزشک در 43 تخصص به صورت </span>
                         <span className={styles.contactType}>
                             <span>متنی </span>

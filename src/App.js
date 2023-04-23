@@ -3,6 +3,7 @@ import './App.css';
 import EachExpertMainBody from './components/each-expert-main-body/EachExpertMainBody';
 import MainBody from './components/mainbody/MainBody';
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/eachSection' element={<EachExpertMainBody />} />
         <Route path='/*' element={<Navigate to='/consultation'/>} />
       </Routes>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -11,6 +11,7 @@
     border-radius: 0 0 42px 42px;
 }
 
+
 .container .sectionInfo h1 {
     font-size: 23px;
     font-weight: 700;
@@ -24,6 +25,13 @@
     margin-bottom: 30px;
 
 }
+/* 
+.container .sectionInfo .contact {
+    position: relative;
+    right: 25%;
+    transform: translateX(-50%);
+    width: fit-content;
+} */
 
 .container .sectionInfo p {
     font-size: 20px;

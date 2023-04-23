@@ -1,0 +1,41 @@
+.container .top {
+    width: 100vw; height: 755.758px;
+    margin-top: 74px;
+    position: absolute;
+    left: 0;
+    bottom: -1290px;
+    margin-bottom: 50px;
+    z-index: 10;
+    padding: 48px 0 0;
+    background: #fff;
+    box-shadow: 0 10px 16px #03213314;
+    border-radius: 0 0 42px 42px;
+    -webkit-box-shadow: 0 -7px 20px 0 rgba(0,0,0,.05);
+    box-shadow: 0 -7px 20px 0 rgba(0,0,0,.05);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 2;
+}
+
+.container .top .topInTop {
+
+    border-bottom: 1px solid #e6e9eb;
+}
+
+.container .top .topInTop p:first-child {
+    color: #065482;
+    font-size: 18px;
+    font-weight: 800;
+    position: absolute;
+    top: 0;
+}
+
+.container .bottom {
+    padding: 107px 18px 18px 18px;
+    width: 100vw; height: 140px;
+    background-image: linear-gradient(119deg,#065482,#00c395);
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    bottom: -1260px;
+}
